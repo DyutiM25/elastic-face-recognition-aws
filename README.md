@@ -10,6 +10,8 @@ The system consists of:
 
 ---
 
+![Alt text](architecture.png)
+
 ## ⚙️ Architecture
 1. **Web Tier**
    - Receives image upload requests (`inputFile`) via HTTP POST on port **8000**.
