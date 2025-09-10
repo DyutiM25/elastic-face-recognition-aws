@@ -1,4 +1,4 @@
-# Elastic Face Recognition Application (CSE 546 Project 1 Part II)
+# Elastic Face Recognition Application 
 
 ## 📌 Overview
 This project implements an **elastic, multi-tiered face recognition application** using AWS IaaS resources. It leverages **EC2, S3, and SQS** to build a scalable cloud system with autoscaling, where requests are dynamically processed by application-tier instances running a deep learning face recognition model.  
@@ -35,14 +35,3 @@ The system consists of:
      - Each instance processes **1 request at a time**.
      - Instances stop automatically when idle.
 
----
-
-## 🛠️ Setup Instructions
-
-### Prerequisites
-- AWS account with access to **EC2, S3, SQS** (US-East-1 region).
-- Python 3.x
-- Required packages:
-  ```bash
-  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-  pip3 install boto3 flask
